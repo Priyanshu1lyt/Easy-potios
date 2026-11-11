@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "easygamemode",
+  "version": "${version}",
+  "name": "Easy Gamemode",
+  "description": "Client-side GUI (default key G) to change any player's or everyone's gamemode with one click. Nothing needed on the server.",
+  "authors": ["Priyanshu1lyt"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.easygamemode.EasyGamemodeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
